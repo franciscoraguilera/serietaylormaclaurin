@@ -23,11 +23,11 @@
     int cantidad;
     double x;
     double serie(double ,int );
-    printf("Introduzca x \n ");
+    printf("Introduzca exponente x \n ");
     scanf("%lf",&x);
-    printf("Introduzca n \n ");
+    printf("Introduzca cantidad de terminos \n ");
     scanf("%d", &cantidad);
-    printf("El resultado de e elevado a %g con %d terminos es %lf\n", x, cantidad, serie(x, cantidad));
+    printf("e^x = %lf\n", serie(x, cantidad)); // "%lf" es para decimales largos
     return 0;
 }
 
